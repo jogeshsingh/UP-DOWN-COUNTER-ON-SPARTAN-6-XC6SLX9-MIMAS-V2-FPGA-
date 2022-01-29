@@ -1,0 +1,40 @@
+xst -intstyle ise -ifn "/home/ise/xilinx/UpdownCounter/Top_module.xst" -ofn "/home/ise/xilinx/UpdownCounter/Top_module.syr" 
+xst -intstyle ise -ifn "/home/ise/xilinx/UpdownCounter/Top_module.xst" -ofn "/home/ise/xilinx/UpdownCounter/Top_module.syr" 
+xst -intstyle ise -ifn "/home/ise/xilinx/UpdownCounter/Top_module.xst" -ofn "/home/ise/xilinx/UpdownCounter/Top_module.syr" 
+xst -intstyle ise -ifn "/home/ise/xilinx/UpdownCounter/Top_module.xst" -ofn "/home/ise/xilinx/UpdownCounter/Top_module.syr" 
+xst -intstyle ise -ifn "/home/ise/xilinx/UpdownCounter/Top_module.xst" -ofn "/home/ise/xilinx/UpdownCounter/Top_module.syr" 
+xst -intstyle ise -ifn "/home/ise/xilinx/UpdownCounter/Top_module.xst" -ofn "/home/ise/xilinx/UpdownCounter/Top_module.syr" 
+xst -intstyle ise -ifn "/home/ise/xilinx/UpdownCounter/Top_module.xst" -ofn "/home/ise/xilinx/UpdownCounter/Top_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_constraints_file.ucf -p xc6slx9-csg324-3 Top_module.ngc Top_module.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_constraints_file.ucf -p xc6slx9-csg324-3 Top_module.ngc Top_module.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Top_module_map.ncd Top_module.ngd Top_module.pcf 
+par -w -intstyle ise -ol high -mt off Top_module_map.ncd Top_module.ncd Top_module.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Top_module.twx Top_module.ncd -o Top_module.twr Top_module.pcf -ucf top_constraints_file.ucf 
+bitgen -intstyle ise -f Top_module.ut Top_module.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_constraints_file.ucf -p xc6slx9-csg324-3 Top_module.ngc Top_module.ngd  
+xst -intstyle ise -ifn "/home/ise/xilinx/UpdownCounter/Top_module.xst" -ofn "/home/ise/xilinx/UpdownCounter/Top_module.syr" 
+xst -intstyle ise -ifn "/home/ise/xilinx/UpdownCounter/Top_module.xst" -ofn "/home/ise/xilinx/UpdownCounter/Top_module.syr" 
+xst -intstyle ise -ifn "/home/ise/xilinx/UpdownCounter/Top_module.xst" -ofn "/home/ise/xilinx/UpdownCounter/Top_module.syr" 
+xst -intstyle ise -ifn "/home/ise/xilinx/UpdownCounter/Top_module.xst" -ofn "/home/ise/xilinx/UpdownCounter/Top_module.syr" 
+xst -intstyle ise -ifn "/home/ise/xilinx/UpdownCounter/Top_module.xst" -ofn "/home/ise/xilinx/UpdownCounter/Top_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_constraints_file.ucf -p xc6slx9-csg324-3 Top_module.ngc Top_module.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_constraints_file.ucf -p xc6slx9-csg324-3 Top_module.ngc Top_module.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Top_module_map.ncd Top_module.ngd Top_module.pcf 
+par -w -intstyle ise -ol high -mt off Top_module_map.ncd Top_module.ncd Top_module.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Top_module.twx Top_module.ncd -o Top_module.twr Top_module.pcf -ucf top_constraints_file.ucf 
+bitgen -intstyle ise -f Top_module.ut Top_module.ncd 
+xst -intstyle ise -ifn "/home/ise/xilinx/UpdownCounter/Top_module.xst" -ofn "/home/ise/xilinx/UpdownCounter/Top_module.syr" 
+xst -intstyle ise -ifn "/home/ise/folder/ISE/UpdownCounter/Top_module.xst" -ofn "/home/ise/folder/ISE/UpdownCounter/Top_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_constraints_file.ucf -p xc6slx9-csg324-3 Top_module.ngc Top_module.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Top_module_map.ncd Top_module.ngd Top_module.pcf 
+par -w -intstyle ise -ol high -mt off Top_module_map.ncd Top_module.ncd Top_module.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Top_module.twx Top_module.ncd -o Top_module.twr Top_module.pcf -ucf top_constraints_file.ucf 
+bitgen -intstyle ise -f Top_module.ut Top_module.ncd 
+xst -intstyle ise -ifn "/home/ise/folder/ISE/UpdownCounter/Top_module.xst" -ofn "/home/ise/folder/ISE/UpdownCounter/Top_module.syr" 
+xst -intstyle ise -ifn "/home/ise/folder/ISE/UpdownCounter/Top_module.xst" -ofn "/home/ise/folder/ISE/UpdownCounter/Top_module.syr" 
+xst -intstyle ise -ifn "/home/ise/folder/ISE/UpdownCounter/Top_module.xst" -ofn "/home/ise/folder/ISE/UpdownCounter/Top_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_constraints_file.ucf -p xc6slx9-csg324-3 Top_module.ngc Top_module.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Top_module_map.ncd Top_module.ngd Top_module.pcf 
+par -w -intstyle ise -ol high -mt off Top_module_map.ncd Top_module.ncd Top_module.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Top_module.twx Top_module.ncd -o Top_module.twr Top_module.pcf -ucf top_constraints_file.ucf 
+bitgen -intstyle ise -f Top_module.ut Top_module.ncd 

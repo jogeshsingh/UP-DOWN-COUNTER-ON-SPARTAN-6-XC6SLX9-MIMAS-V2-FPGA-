@@ -1,0 +1,24 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Fri Jan 28 05:04:47 2022
+//! **************************************************************************
+
+SCHEMATIC START;
+CONFIG VCCAUX = "3.3";
+COMP "en" LOCATE = SITE "C17" LEVEL 1;
+COMP "seven_seg<0>" LOCATE = SITE "A5" LEVEL 1;
+COMP "seven_seg<1>" LOCATE = SITE "C6" LEVEL 1;
+COMP "seven_seg<2>" LOCATE = SITE "D6" LEVEL 1;
+COMP "seven_seg<3>" LOCATE = SITE "C5" LEVEL 1;
+COMP "led" LOCATE = SITE "P15" LEVEL 1;
+COMP "seven_seg<4>" LOCATE = SITE "C4" LEVEL 1;
+COMP "seven_seg<5>" LOCATE = SITE "A4" LEVEL 1;
+COMP "seven_seg<6>" LOCATE = SITE "B4" LEVEL 1;
+COMP "seven_seg<7>" LOCATE = SITE "A3" LEVEL 1;
+COMP "i_clk_fpga" LOCATE = SITE "V10" LEVEL 1;
+COMP "seg_en<0>" LOCATE = SITE "B2" LEVEL 1;
+COMP "seg_en<1>" LOCATE = SITE "A2" LEVEL 1;
+COMP "seg_en<2>" LOCATE = SITE "B3" LEVEL 1;
+COMP "reset" LOCATE = SITE "M18" LEVEL 1;
+NET "i_clk_fpga_BUFGP/IBUFG" PERIOD = 10 ns HIGH 50%;
+SCHEMATIC END;
+

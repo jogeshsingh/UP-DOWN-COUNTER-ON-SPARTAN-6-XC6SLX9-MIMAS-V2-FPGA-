@@ -1,0 +1,26 @@
+CONFIG VCCAUX = "3.3" ;
+
+   NET "i_clk_fpga"      LOC = V10 | IOSTANDARD = LVCMOS33 | PERIOD = 100MHz;
+	
+	 NET "reset"           LOC = M18   | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST | PULLUP;
+	 
+	 #################seven seg display ###############
+	   NET "Seven_Seg[0]"     LOC = A5  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;
+    NET "Seven_Seg[1]"     LOC = C6  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;
+    NET "Seven_Seg[2]"     LOC = D6  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;
+	 NET "Seven_Seg[3]"     LOC = C5  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;
+	  NET "Seven_Seg[4]"     LOC = C4  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;
+    NET "Seven_Seg[5]"     LOC = A4  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;
+	 NET "Seven_Seg[6]"     LOC = B4  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;
+	 NET "Seven_Seg[7]"     LOC = A3  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;
+	 
+	 ///****************output led**********////
+	 NET "led"              LOC = P15  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;
+############Enables for Seven Segment 
+    NET "seg_en[2]"           LOC = B3  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;                            
+    NET "Seg_en[1]"           LOC = A2  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;
+    NET "Seg_en[0]"           LOC = B2  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;
+	 
+	####********** ////enable for up/down if en == 1'b1 , then up count ... else down ///
+	 NET "en"         LOC = C17  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST | PULLUP;
+	
